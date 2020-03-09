@@ -39,6 +39,9 @@ export default class Nav extends Component {
                   <li class="nav-item">
                    <Link to="/contact" class="nav-link js-scroll-trigger">Contact</Link>
                   </li>
+                  <li class="nav-item">
+                  <Link to="/img/PengLei.pdf" class="nav-link js-scroll-trigger" target="_blank" download>Resume</Link>
+                  </li>
                 </ul>
               </div>
             </div>

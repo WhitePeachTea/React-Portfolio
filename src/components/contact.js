@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Nav from './nav.js';
 import Footer from './foot.js';
+import { Link } from "react-router-dom"; 
+
 
 
 export default class Contact extends Component {
@@ -60,7 +62,7 @@ export default class Contact extends Component {
               <i class="fas fa-envelope text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Resume</h4>
               <hr class="my-4"></hr>
-                <a href="img/PengLei.docx">Download Here</a>
+              <Link to="/img/PengLei.pdf" class="nav-link js-scroll-trigger" target="_blank" download>Resume Downdload</Link>
             </div>
           </div>
         </div>
